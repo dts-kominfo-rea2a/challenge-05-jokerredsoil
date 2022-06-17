@@ -19,14 +19,14 @@ const sorter = (name,callback) => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (names) => {
-  return names.sort()
+const sortAscending = (name) => {
+  return name.sort()
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (names) => {
-  return names.sort().reverse()
+const sortDescending = (name) => {
+  return name.sort().reverse()
 };
 
 // ! JANGAN DIMODIFIKASI
