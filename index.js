@@ -11,7 +11,7 @@ const sorter = (names,callback) => {
   const result = [];
   
  for (let i = 0; i < sName.length; i++) {
-  result.push(`${i+1} . ${sName[i]}`)
+  result.push(`${i+1}. ${sName[i]}`)
   
  }
   return result;
