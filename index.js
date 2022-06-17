@@ -10,7 +10,7 @@ const sorter = (name,callback) => {
   const sName = callback(name)
   const result = [];
   
- for (i = 0; i < sName.length; i++) {
+ for (let i = 0; i < sName.length; i++) {
   result.push(`${i+1} . ${sName[i]}`)
   
  }
@@ -19,14 +19,14 @@ const sorter = (name,callback) => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (name) => {
-  return name.sort()
+const sortAscending = (names) => {
+  return names.sort()
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (name) => {
-  return name.sort().reverse()
+const sortDescending = (names) => {
+  return names.sort().reverse()
 };
 
 // ! JANGAN DIMODIFIKASI
